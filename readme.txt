@@ -1,5 +1,13 @@
 Data and figure generation files for manuscript: Spatially structured eco-evolutionary dynamics in a host-pathogen interaction render isolated populations vulnerable to disease
-Notes: All files generated and tested on Malatb 2020b.
+
+Notes: 
+All files generated and tested on Matlab 2020b on MacOS 12.0.1.
+".c" files will compile automatically in Matlab provided a suitable compiller is installed (if not, run mex -setup)
+Typical install time < 1 min.
+Expected runtime for typical output < 10 min
+
+Instructions:
+To reproduce simulation results from scratch, delete ".mat" files and run "theory_fig.m".
 
 Files:
 array_values.m - Sets values for constant arrays used in the simulations
